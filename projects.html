@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Projects — Fidelia Oko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="noise"></div>
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="brand" href="index.html"
+          ><span>&lt;/&gt;</span> Fidelia Oko</a
+        >
+        <div class="nav-links">
+          <a href="index.html#work">Work</a
+          ><a href="index.html#journey">Journey</a
+          ><a href="index.html#approach">Approach</a
+          ><a href="projects.html">Projects</a
+          ><a href="index.html#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle">
+            <span class="theme-icon">☼</span
+            ><span id="themeLabel">Light mode</span></button
+          ><a class="button button-small" href="index.html#contact"
+            >Let's connect ↗</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="page-hero section">
+        <div class="container">
+          <p class="eyebrow">PROJECT ARCHIVE</p>
+          <h1>Things I've <em>built, explored</em><br />and learned from.</h1>
+          <p>
+            Not everything belongs on the homepage. This is the wider collection
+            — professional work, personal projects and experiments.
+          </p>
+        </div>
+      </section>
+      <section class="section archive">
+        <div class="container">
+          <div class="filter-row">
+            <button class="filter active" data-filter="all">All</button
+            ><button class="filter" data-filter="professional">
+              Professional</button
+            ><button class="filter" data-filter="personal">Personal</button
+            ><button class="filter" data-filter="building">
+              Currently building
+            </button>
+          </div>
+          <div class="archive-grid" id="archiveGrid"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="year"></span> Fidelia Oko</span
+        ><a href="index.html">← Back home</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="projects.js"></script>
+  </body>
+</html>

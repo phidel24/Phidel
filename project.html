@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Project — Fidelia Oko</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="cursor-glow"></div>
+    <div class="noise"></div>
+    <header class="nav-wrap">
+      <nav class="nav container">
+        <a class="brand" href="index.html"
+          ><span>&lt;/&gt;</span> Fidelia Oko</a
+        >
+        <div class="nav-links">
+          <a href="index.html#work">Work</a><a href="projects.html">Projects</a
+          ><a href="index.html#about">About</a
+          ><a href="index.html#contact">Contact</a>
+        </div>
+        <div class="nav-actions">
+          <button class="theme-toggle" id="themeToggle">
+            <span class="theme-icon">☼</span
+            ><span id="themeLabel">Light mode</span></button
+          ><a class="button button-small" href="index.html#contact"
+            >Let's connect ↗</a
+          >
+        </div>
+      </nav>
+    </header>
+    <main id="projectPage"></main>
+    <footer class="footer">
+      <div class="container">
+        <span>© <span id="year"></span> Fidelia Oko</span
+        ><a href="projects.html">← All projects</a>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+    <script src="project.js"></script>
+  </body>
+</html>

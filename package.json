@@ -1,0 +1,23 @@
+{
+  "name": "fidelia-portfolio",
+  "version": "1.0.0",
+  "description": "A responsive personal portfolio built with HTML, CSS, and JavaScript. It showcases selected projects, my engineering experience, and the way I approach building software.",
+  "main": "project.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phidel24/Phidel.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phidel24/Phidel/issues"
+  },
+  "homepage": "https://github.com/phidel24/Phidel#readme",
+  "devDependencies": {
+    "prettier": "^3.9.6"
+  }
+}
